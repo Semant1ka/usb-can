@@ -1,9 +1,13 @@
 # usb-can
 
-- Драйвер нужно устанавливать во всех версиях Windows, кроме Windows 10
+- Install driver for all Windows OS **except Windows 10**
+- Use CAN Hacker for Windows 7/8, use BUSMASTER for Windows 10
 
-- BUSMASTER работает только в Windows 10
+## BUSMASTER setup for Windows 10
 
-- При подключении устройства к BUSMASTER, в меню CAN - Driver Selection - выберите VScom CAN-API
+- In CAN - Driver Selection - select VScom CAN-API
+- Type COM port address manually in Serial Port drop down list window, for example COM5
+- Choose operation mode Normal or LIsten Only
 
-Скачать [BUSMASTER](https://github.com/rbei-etas/busmaster)
+
+Download [BUSMASTER](https://github.com/rbei-etas/busmaster)
